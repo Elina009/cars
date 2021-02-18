@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.car1{
+			position: absolute;
+			transition: 1.5s;
+			width: 120px;
+			height: 220px;
+			left: : 50px;
+		}
+		.car2{
+			position: absolute;
+			transition: 1.5s;
+			width: 120px;
+			height: 220px;
+			left: : 50px;
+		}
+		.car3{
+			position: absolute;
+			transition: 1.5s;
+			width: 120px;
+			height: 220px;
+			left: : 50px;
+		}
+		.car4{
+			position: absolute;
+			transition: 1.5s;
+			width: 120px;
+			height: 220px;
+			left: : 50px;
+		}
+		.car5{
+			position: absolute;
+			transition: 1.5s;
+			width: 120px;
+			height: 220px;
+			left: : 50px;
+		}
+		.finish{
+			position: absolute;
+			top:300px;
+			left: 0px;
+		}
+	</style>
+</head>
+<body>
+	<img src="car1.png" alt="" class="car1 car" style="top:800px; left:90px;">
+	<img src="car2.png" alt="" class="car2 car" style="top:800px; left:240px;">
+	<img src="car3.png" alt="" class="car3 car" style="top:800px; left:390px;">
+	<img src="car4.png" alt="" class="car4 car" style="top:800px; left:540px;">
+	<img src="car5.png" alt="" class="car5 car" style="top:800px; left:690px;">
+	<img src="finish.png" alt="" class="finish">
+
+	<script type="text/javascript">
+		let cars = document.querySelectorAll('.car');
+		let top0 = 800;
+
+		cars[0].onclick = function(){
+			top0 = top0 - 300
+			cars[0].style.top = top0 + "px";
+		}
+		cars[1].onclick = function(){
+			top0 = top0 - 120
+			cars[1].style.top = top0 + "px";
+		}
+		cars[2].onclick = function(){
+			top0 = top0 - 90
+			cars[2].style.top = top0 + "px";
+		}
+		cars[3].onclick = function(){
+			top0 = top0 - 50
+			cars[3].style.top = top0 + "px";
+		}
+		cars[4].onclick = function(){
+			top0 = top0 - 97
+			cars[4].style.top = top0 + "px";
+		}
+	</script>
+</body>
+</html>
